@@ -1,9 +1,10 @@
 import prisma from "../database/database"
+import { revenues } from "@prisma/client"
 
 export async function createRevenue(
-    revenue: string
+    revenue: revenues
 ){
-    await prisma.revenues.create({data: {revenue}})
+    await prisma.revenues.create({data: revenue})
 }
 
 export async function getRevenues(){
