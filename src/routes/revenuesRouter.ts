@@ -1,5 +1,5 @@
 import { Router } from "express"
-import * as authController from "../controllers/revenueController"
+import * as revenueController from "../controllers/revenueController"
 import ValidateSchema from "../middlewares/validateSchemaMiddleware"
 import revenueSchema from "../schemas/revenueSchema"
 

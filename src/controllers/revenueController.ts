@@ -9,7 +9,7 @@ export async function createRevenue(req: Request, res: Response){
     res.send("Revenue created successfully").status(201)
 }
 
-export async function getRevenue(req: Request, res: Response){
+export async function getRevenues(req: Request, res: Response){
     const revenuesData = await revenueService.getRevenues()
 
     res.send(revenuesData).status(201)
