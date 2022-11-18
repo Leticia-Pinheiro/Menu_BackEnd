@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img  src="https://cdn-icons-png.flaticon.com/512/4813/4813075.png">
+  <img height=300 src="https://cdn-icons-png.flaticon.com/512/4813/4813075.png">
 </p>
 <h1 align="center">  
     Menu
